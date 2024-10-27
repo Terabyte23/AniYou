@@ -1,0 +1,137 @@
+body {
+    background-color: #1c1c1e;
+}
+
+.panel {
+    display: flex; 
+    align-items: center; 
+    border: 1px solid transparent;
+    padding: 20px;
+    width: 100%;
+    color: whitesmoke;
+    font-family: "Nunito", serif;
+}
+
+.menu {
+    display: flex;        
+    gap: 30px;       
+    margin-left: 10%;  
+    padding: 0;
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a:hover{
+    color:#2ecc9f;
+}
+
+.menu a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo_text{
+    font-family: "Nunito", serif;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .new {
+    width: 720px;
+    border-radius: 10px;
+  }
+
+  .play-icon {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    opacity: 0.95;
+    pointer-events: none;
+  }
+
+  .caption {
+    margin-top: 10px;
+    margin-left: 45%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: "Nunito", serif;
+  }
+
+  /* Основной стиль контейнера */
+.trending-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Nunito", serif;
+  }
+  
+  /* Заголовок и "View All" */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .header h2 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    font-family: "Nunito", serif;
+  }
+  .view-all {
+    color: white; /* Мятный цвет */
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20%;
+    text-decoration: none;
+    font-family: "Nunito", serif;
+  }
+  
+  /* Стили для списка постеров */
+  .anime-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: "Nunito", serif;
+  }
+  .anime-item {
+    width: 150px;
+    text-align: center;
+    font-family: "Nunito", serif;
+  }
+  .anime-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .anime-item img:hover {
+    transform: scale(1.05); /* Небольшое увеличение при наведении */
+  }
+  .anime-title {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    font-family: "Nunito", serif;
+  }
+  
+  .popular-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Nunito", serif;
+  }
